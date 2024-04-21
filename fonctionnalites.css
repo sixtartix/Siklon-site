@@ -1,0 +1,105 @@
+/* Styles pour la page fonctionnalites.html */
+
+/* Autres styles existants */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+header {
+  background-color: #7ce6f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.siklon-logo {
+  width: 50px;
+  height: 50px;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  color: #1e1e1e;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: #59b3c6;
+  color: #fff;
+}
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #2c2c2c;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  h2 i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    padding-left: 1.5rem;
+    position: relative;
+  }
+  
+  li::before {
+    content: "\f111";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 0.8rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #7ce6f9;
+  }
+  
+  footer {
+    background-color: #59b3c6;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+  }
+
+  
