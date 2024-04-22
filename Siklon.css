@@ -1,26 +1,6 @@
 /* Styles CSS */
 /* Autres styles existants */
 
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav {
-    margin-top: 1rem;
-  }
-
-  nav a {
-    display: block;
-    margin: 0.5rem 0;
-  }
-
-  section {
-    padding: 1rem;
-  }
-}
-
 
 body {
   font-family: Arial, sans-serif;
